@@ -57,5 +57,8 @@ kevin-cotellesso-portfolio-site/
 - Portable personal transporter
 - Loft!
 - Hat organ?
-- Mobile Robotics project
+- RHIT Mobile Robotics project
+- MATE robot Cubert?
+- Freshman year flipper mechanism
+- Freshman year marble run
 - Whatever I work on at CMU
