@@ -50,3 +50,12 @@ kevin-cotellesso-portfolio-site/
 - Responsive CSS Grid and Flexbox layouts
 - CSS animations for smooth interactions
 - Vanilla JavaScript for all functionality
+
+## Things to add
+- Musical compositions (I have several)
+- More photography
+- Portable personal transporter
+- Loft!
+- Hat organ?
+- Mobile Robotics project
+- Whatever I work on at CMU

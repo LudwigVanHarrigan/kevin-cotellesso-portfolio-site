@@ -26,7 +26,8 @@
     </header>
 
     <main>
-        <section class="project-hero">
+        <section class="project-hero"
+            style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url('../assets/images/chainmail/heartprint.jpeg'); background-size: cover; background-position: center;">
             <div class="container">
                 <h1 id="project-title">Chain Mail</h1>
                 <p id="project-subtitle">Mechanical Design / 2025</p>
@@ -36,23 +37,87 @@
         <section class="section">
             <div class="container project-content">
                 <div class="project-media">
-                    <img id="project-main-image" src="../assets/images/gallery/photo3.png" alt="Chain Mail">
+                    <div class="slideshow-container" id="chainmail_slideshow" style="grid-column: 1 / -1;">
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/squarecad.png" style="width:100%" alt="Square Chainmail">
+                        <div class="text">Square chainmail features a 
+                            high packing density on the build plate and is easier to print than circles.
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/squareprint1.JPEG" style="width:100%" alt="Square Chainmail">
+                        <div class="text">Square chainmail printed out is sloppy
+                            but can be extended multiple times its printed size.
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirl1cad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A conical chainmail with axial symmetry.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirl2cad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A wider top allows for wider attachment points and 
+                            easier printing.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirlprint.JPG" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A wider top allows for wider attachment points and 
+                            easier printing.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirl3cad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A less bulky version that utilizes straight lines for improved bridging.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirl4cad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">Fattening the top and moving attachment points out increases strength 
+                            and printability.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirl5cad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A central column can be added to each cell to improve stability and final strength.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/swirlmirrorcad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A wide top cell with planar symmetry.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/pintlecad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">A volumetric pintle modifier that can be used to turn arbitrary 
+                            shapes into chain mail.
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/pintletestcad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">My pintle modifier applied to both ends of a rectangular prism
+                            yields a chain link.
+                        </div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/heartcad.png" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">Custom shaped chain mail made easily using my pintle modifier.</div>
+                    </div>
+                    <div class="mySlides fade">
+                        <img src="../assets/images/chainmail/heartprint.jpeg" style="width:100%" alt="Demo Grab 3">
+                        <div class="text">Custom shaped chain mail made easily using my pintle modifier.</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1, 'chainmail_slideshow')">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 'chainmail_slideshow')">&#10095;</a>
+                </div>
                 </div>
                 <div class="project-description">
                     <h3>About this Project</h3>
-                    <p id="project-description">Handcrafted chain mail armor project. To be continued!!</p>
+                    <p id="project-description">I have designed several 3D printable chain mails in order to better 
+                        understand the nature of repeating patterns in design. Each design has one or two unit 
+                        cells that, when repeated, will link together to form a contiguous flexible fabric.
+                    </p>
+                    <p>Flip through the slideshow to see my various designs.
+                    </p>
                 </div>
             </div>
         </section>
 
-        <section class="section">
-            <div class="container">
-                <h3>Gallery</h3>
-                <div class="gallery-grid" id="project-gallery">
-                    <!-- Additional images -->
-                </div>
-            </div>
-        </section>
     </main>
 
     <footer>

@@ -1,6 +1,6 @@
 # Portfolio Website Usage Guide
 
-This guide will help you customize and deploy your portfolio website.
+This guide will help customize and deploy the portfolio website.
 
 ## Quick Start (5 Minutes)
 

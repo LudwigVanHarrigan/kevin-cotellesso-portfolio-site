@@ -23,16 +23,34 @@ const portfolioConfig = {
             link: "mechanical-design/compliant-gripper.html"
         },
         {
-            image: "assets/images/gallery/photo3.png",
-            title: "Jaw-based HMI",
-            category: "Research",
-            link: "research/jaw-hmi.html"
+            image: "assets/images/subaruwrx/1_finalrender.png",
+            title: "Electric Vehicle Conversion",
+            category: "Mechanical Design",
+            link: "mechanical-design/electric-conversion.html"
         },
         {
             image: "assets/images/photography/frozen_world/P1170189.JPG",
             title: "Frozen World",
             category: "Photography",
             link: "photography/frozen-world.html"
+        },
+        {
+            image: "assets/images/photography/vehicles/20231116_174803000_iOS.jpg",
+            title: "Vehicles",
+            category: "Photography",
+            link: "photography/vehicles.html"
+        },
+        {
+            image: "assets/images/gallery/diffusion_pretty_picture.png",
+            title: "Diffusion Modeling",
+            category: "Research",
+            link: "research/diffusion-modeling.html"
+        },
+        {
+            image: "assets/images/chainmail/heartprint.jpeg",
+            title: "Chain Mail",
+            category: "Mechanical Design",
+            link: "mechanical-design/chain-mail.html"
         }
     ],
 
@@ -44,6 +62,7 @@ const portfolioConfig = {
             { title: "Diffusion Modeling", link: "research/diffusion-modeling.html" }
         ],
         mechanical: [
+            { title: "Electric Vehicle Conversion", link: "mechanical-design/electric-conversion.html" },
             { title: "Compliant Gripper Design", link: "mechanical-design/compliant-gripper.html" },
             { title: "Shade Shifter", link: "mechanical-design/shade-shifter.html" },
             { title: "Wrench Whisperer", link: "mechanical-design/wrench-whisperer.html" },
